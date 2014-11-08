@@ -1,3 +1,8 @@
+library(data.table)
+
+# change to english locale (on Windows)
+Sys.setlocale("LC_TIME", "English")
+
 # Read the file
 data <- fread("household_power_consumption.txt", na.strings=c("?"))
 

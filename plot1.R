@@ -1,3 +1,5 @@
+library(data.table)
+
 # Read the file
 data <- fread("household_power_consumption.txt", na.strings=c("?"))
 
